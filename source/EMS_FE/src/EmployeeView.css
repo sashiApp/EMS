@@ -1,0 +1,98 @@
+.createEmployee {
+  padding: 20px;
+}
+.divTableCE
+    {
+        display:  table;
+        width:auto;
+        background-color:#eee;
+        border:1px solid  #666666;
+        border-spacing:10px;/*cellspacing:poor IE support for  this*/
+       /* border-collapse:separate;*/
+    }
+
+    .divRowCE
+    {
+       display:table-row;
+       width:auto;
+       height: 50px;
+      
+    }
+    .divRowHeaderCE
+    {
+       display:table-row;
+       width:auto;
+       font-weight: bold;
+    }
+ .divRowHeader
+    {
+       display:table-row;
+       width:auto;
+       font-weight: bold;
+    }
+    .divCellCE
+    {
+        float:left;/*fix for  buggy browsers*/
+        display:table-column;
+        width:100px;
+   
+        border-spacing:20px;
+        padding:20px;
+        background-color:#eee;
+        text-align:center;
+       
+
+    }
+    .divCellMCE
+    {
+        float:left;/*fix for  buggy browsers*/
+        display:table-column;
+        width:400px;
+        border-spacing:5px;
+        text-align:left;
+        padding:5px;
+    }
+ .divCellButtonCE
+    {
+        float:left;/*fix for  buggy browsers*/
+        display:table-column;
+        width:200px;
+        border-spacing:5px;
+        text-align:left;
+        padding:10px;
+    }
+
+    
+ .divCellHeaderLeft
+    {
+        float:left;/*fix for  buggy browsers*/
+        display:table-column;
+        width:300px;
+        border-spacing:20px;
+        color: red;
+    }
+   
+ .divCellHeaderRight
+    {
+        float:right;/*fix for  buggy browsers*/
+        display:table-column;
+        width:25%;
+        border-spacing:20px;
+    }
+button {
+  background: lightblue;
+  padding: 5px;
+  margin: 5px;
+  width:200px;
+  height:50px;
+  color: black;
+}
+
+
+   input {
+    border: 2px solid blue;
+    border-radius: 4px;
+    height:50px;
+    width:400px;
+    font-size: 30px;
+}

@@ -1,0 +1,81 @@
+.listEmployee {
+  padding: 20px;
+}
+.divTable
+    {
+        display:  table;
+        width:auto;
+        background-color:#eee;
+        border:1px solid  #666666;
+        border-spacing:5px;/*cellspacing:poor IE support for  this*/
+       /* border-collapse:separate;*/
+    }
+ .divTableHide
+    {
+        display:  none;
+        width:auto;
+        background-color:#eee;
+        border:1px solid  #666666;
+        border-spacing:5px;/*cellspacing:poor IE support for  this*/
+       /* border-collapse:separate;*/
+    }
+    .divRow
+    {
+       display:table-row;
+       width:auto;
+    }
+    .divRowHeader
+    {
+       display:table-row;
+       width:auto;
+       font-weight: bold;
+    }
+
+    .divCell
+    {
+        float:left;/*fix for  buggy browsers*/
+        display:table-column;
+        width:100px;
+        border-spacing:20px;
+        background-color:#ccc;
+    }
+    .divCellM
+    {
+        float:left;/*fix for  buggy browsers*/
+        display:table-column;
+        width:200px;
+        border-spacing:20px;
+        background-color:#ccc;
+    }
+      .divRowHeader
+    {
+       display:table-row;
+       width:auto;
+       font-weight: bold;
+    }
+
+ .divCellHeaderLeft
+    {
+        float:left;/*fix for  buggy browsers*/
+        display:table-column;
+        width:auto;
+        border-spacing:20px;
+        font-size: 13px;
+        font-color: red;
+    }
+    .divCellHeaderCenter
+    {
+        float:center;/*fix for  buggy browsers*/
+        display:table-column;
+        width:100px;
+        border-spacing:20px;
+        font-size: 13px;
+        font-color: red;
+    }
+ .divCellHeaderRight
+    {
+        float:right;/*fix for  buggy browsers*/
+        display:table-column;
+        width:auto;;
+        border-spacing:20px;
+    }
